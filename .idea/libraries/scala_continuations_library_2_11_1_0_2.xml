@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="scala-continuations-library_2.11-1.0.2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

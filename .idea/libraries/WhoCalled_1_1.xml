@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="WhoCalled-1.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/me/nallar/whocalled/WhoCalled-1.1/WhoCalled-1.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

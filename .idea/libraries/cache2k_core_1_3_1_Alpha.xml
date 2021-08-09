@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="cache2k-core-1.3.1.Alpha">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/cache2k/cache2k-core/1.3.1.Alpha/cache2k-core-1.3.1.Alpha.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

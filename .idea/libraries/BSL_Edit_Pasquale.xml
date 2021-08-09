@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="BSL_Edit_Pasquale">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/client/overrides/shaderpacks/BSL_Edit_Pasquale.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

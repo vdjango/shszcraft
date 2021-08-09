@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="minecraft_server.1.12.2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/net/minecraft/1.12.2/minecraft_server.1.12.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

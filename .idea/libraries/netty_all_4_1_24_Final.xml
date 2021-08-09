@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="netty-all-4.1.24.Final">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

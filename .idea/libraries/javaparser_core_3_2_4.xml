@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javaparser-core-3.2.4">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/com/github/javaparser/javaparser-core-3.2.4/javaparser-core-3.2.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

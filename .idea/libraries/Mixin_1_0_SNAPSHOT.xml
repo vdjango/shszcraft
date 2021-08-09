@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Mixin-1.0-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/minimallycorrect/mixin/Mixin-1.0-SNAPSHOT-6458ad41b311f546/Mixin-1.0-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
