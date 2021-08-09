@@ -1,0 +1,7 @@
+{
+	title: "电气时代",
+	icon: "mekanism:machineblock3 1 1",
+	always_invisible: false,
+	group: 1878408764,
+	default_quest_shape: ""
+}

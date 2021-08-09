@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"��-�һ����ܱ�ǿ"
+	],
+	dependencies: [
+		"b31e634d"
+	],
+	tasks: [{
+		uid: "066c3da2",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "obsidiorite"
+			}
+		}]
+	}]
+}

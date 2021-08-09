@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -4.5d,
+	dependencies: [
+		"3f6ddd62"
+	],
+	tasks: [{
+		uid: "eef1af6e",
+		type: "item",
+		items: [{
+			item: "mekanism:otherdust 1 1"
+		}],
+		count: 16L
+	}]
+}

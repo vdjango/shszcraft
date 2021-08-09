@@ -1,0 +1,31 @@
+{
+	title: "火红莲",
+	x: 13.0d,
+	y: -2.0d,
+	dependencies: [
+		"972784f4"
+	],
+	tasks: [{
+		uid: "a2fd7df1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	},
+	{
+		uid: "0aff8154",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "ba71db52",
+		type: "item",
+		item: "minecraft:coal_ore",
+		count: 64
+	}]
+}

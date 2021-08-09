@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"8661615f"
+	],
+	tasks: [{
+		uid: "9b4488e9",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:key"
+		}]
+	}]
+}

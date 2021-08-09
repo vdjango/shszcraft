@@ -1,0 +1,28 @@
+{
+	x: 11.0d,
+	y: -2.0d,
+	text: [
+		"探索寻找黑色神秘花,合成黑色神秘花瓣在魔力池中转化为黑曜石，可以去地狱了呢"
+	],
+	dependencies: [
+		"40829152"
+	],
+	tasks: [{
+		uid: "bf193c64",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "f3ca5cc3",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "adf08cfa",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	}]
+}

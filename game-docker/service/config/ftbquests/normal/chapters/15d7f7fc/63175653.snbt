@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"8d4a054d"
+	],
+	tasks: [{
+		uid: "8a9658ff",
+		type: "item",
+		items: [{
+			item: "moreplanets:diona_dungeon_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3dac3e35",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c079d515",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	}]
+}

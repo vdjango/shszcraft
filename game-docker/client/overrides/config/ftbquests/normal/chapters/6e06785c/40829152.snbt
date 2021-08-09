@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		"可以通过开宝箱获得，原始人，探险吧"
+	],
+	dependencies: [
+		"2dd94cdc"
+	],
+	tasks: [{
+		uid: "77d863d6",
+		type: "item",
+		items: [{
+			item: "botania:manabottle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fdcc1ddc",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

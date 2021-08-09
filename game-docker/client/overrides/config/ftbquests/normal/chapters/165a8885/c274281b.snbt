@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "735ffbe3",
+		type: "item",
+		items: [{
+			item: "pyrotech:rock 1 5"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "54d8c08f",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"做一把青铜镐挖铁吧"
+	],
+	dependencies: [
+		"f8639050"
+	],
+	tasks: [{
+		uid: "b79f6465",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 2"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "657d6d05",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8adf607e",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

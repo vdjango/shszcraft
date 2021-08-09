@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: 1.5d,
+	dependencies: [
+		"f1a8586d"
+	],
+	tasks: [{
+		uid: "2c91b4a3",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "adamant"
+			}
+		}]
+	}]
+}

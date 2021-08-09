@@ -1,0 +1,17 @@
+{
+	x: 15.0d,
+	y: -2.0d,
+	text: [
+		"快用我做蕴魔之心降低难度吧"
+	],
+	dependencies: [
+		"06180cc9"
+	],
+	tasks: [{
+		uid: "0c78f7d5",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}]
+}

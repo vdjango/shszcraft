@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"把我种在黑暗中的耕地或者末地石上，就可以收获末影珍珠哦"
+	],
+	dependencies: [
+		"a81118d7"
+	],
+	tasks: [{
+		uid: "e11764fa",
+		type: "item",
+		items: [{
+			item: "endercrop:ender_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "e3633262",
+		type: "item",
+		item: "scalinghealth:difficultychanger"
+	}]
+}

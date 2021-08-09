@@ -1,0 +1,173 @@
+{
+    
+    
+    "buttons":
+    {     
+	
+		"singleplayer":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/single.png",
+            "posX" : 75,
+            "posY" : 15,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "left_top",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		"multiplayer":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/multi.png",
+            "posX" : 36,
+            "posY" : 75,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "left_top",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/settings.png",
+            "posX" : -164,
+            "posY" : -205,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+                    
+
+        "mods":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/mods.png",
+            "posX" : 75,
+            "posY" : 135,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "left_top",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },	        
+		"quit":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/quit.png",
+            "posX" : -164,
+            "posY" : -85,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },        
+		"language":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/buttons/lang.png",
+            "posX" : -125,
+            "posY" : -145,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 640,
+			"imageHeight" : 640,
+			"alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "versionChecker":
+        {
+            "text" : "Version-Checker",
+            "posX" : 2,
+            "posY" : -35,
+            "width" : 100,
+            "height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,			
+			"alignment" : "bottom_left",
+            "wrappedButton" : 644
+        }
+	},  
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Forge #forgeversion# for MC #mcversion# - Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "bottom_left"
+        },
+        
+		"packTxt":
+        {
+            "text" : "AAIII - 0.0.1a",
+            "posX" : 2,
+            "posY" : 2,
+            "color" : -1,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "other":
+    {
+      "background": {
+         "image": "",
+         "slideshow": {
+            "images": [
+               "mainmenu:textures/bg1.png",
+               "mainmenu:textures/bg2.png"
+            ],
+            "displayDuration": 200,
+            "fadeDuration": 64
+         }
+      }
+	}
+}

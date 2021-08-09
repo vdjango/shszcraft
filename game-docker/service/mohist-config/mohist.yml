@@ -1,0 +1,59 @@
+# This is the main configuration file for Mohist.
+# 
+# Home: https://www.mohist.red/
+# 
+# Setting: forge.disablechunkforcesystem Default: false   # Disable ForgeChunkForceSystem
+# Setting: consolecolor.warn-msg Default: [33;1m   # consolecolor.warn-msg
+# Setting: forge.modsblacklist.kickmessage Default: Use of unauthorized mods   # mods black-list kick Message
+# Setting: console_name Default: Server   # Front of the console, for example /say
+# Setting: consolecolor.warn-level Default: [33;1m   # consolecolor.warn-level
+# Setting: perfomance.maxEntityCollisionsPerTick Default: 8   # Max Entity Collisions PerTick
+# Setting: server-type Default: FML   # Set the server type displayed in motd (FML/BUKKIT/VANILLA)
+# Setting: consolecolor.error-level Default: [31;1m   # consolecolor.error-level
+# Setting: messages.Outdate-Server Default: 过时的服务端，服务端依然处在 {0} 版本   # Outdate Server
+# Setting: disable-announce-Advancements Default: false   # Turn off achievment notifications
+# Setting: eventCanceled.explosion Default: false   # BlockExplosionEvent isCanceled
+# Setting: forge.modsblacklist.list Default:    # mods black-list
+# Setting: messages.Outdate-Client Default: 过时的客户端! 请使用 {0}   # Outdate Client
+# Setting: support_nocmd Default: false   # Some server tools do not recognize I18N
+# Setting: consolecolor.error-msg Default: [31;1m   # consolecolor.error-msg
+# Setting: check_update Default: true   # Check Update
+# Setting: enable_progress Default: true   # Enable download progress
+# Setting: world.stopserversaveworlds Default: false   # stopserversaveworlds
+# Setting: lang Default: en_US   # Mohist internationalization language setting, will return the default system language when your settings are invalid
+# Setting: perfomance.entityCollideFrequency Default: 2   # Entity Collide Frequency
+# Setting: messages.use-unknow-command Default: 未知命令. 输入"/help"以获得帮助   # Prompt unknown command
+
+forge:
+  disablechunkforcesystem: false
+  modsblacklist:
+    kickmessage: Use of unauthorized mods
+    list: '[]'
+  autounloadWorld_whitelist:
+  - '0'
+  - '1'
+  - '-1'
+consolecolor:
+  warn-msg: '[33;1m'
+  warn-level: '[33;1m'
+  error-level: '[31;1m'
+  error-msg: '[31;1m'
+console_name: Server
+perfomance:
+  maxEntityCollisionsPerTick: 8
+  entityCollideFrequency: 2
+server-type: FML
+messages:
+  Outdate-Server: 过时的服务端，服务端依然处在 {0} 版本
+  Outdate-Client: 过时的客户端! 请使用 {0}
+  use-unknow-command: 未知命令. 输入"/help"以获得帮助
+disable-announce-Advancements: false
+eventCanceled:
+  explosion: false
+support_nocmd: false
+check_update: false
+enable_progress: true
+world:
+  stopserversaveworlds: false
+lang: xx_XX
+config-version: 2

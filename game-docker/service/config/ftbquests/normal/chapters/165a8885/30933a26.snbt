@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -2.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "940f33cd",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "070088d2",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 50
+	}]
+}

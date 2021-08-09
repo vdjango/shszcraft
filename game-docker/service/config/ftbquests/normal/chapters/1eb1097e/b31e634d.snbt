@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"c212da94"
+	],
+	tasks: [{
+		uid: "3dcc96da",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "manyullyn"
+			}
+		}]
+	}]
+}

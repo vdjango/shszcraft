@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	dependencies: [
+		"c64f3174"
+	],
+	tasks: [{
+		uid: "52fbeeef",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "black_obsidian"
+			}
+		}]
+	}]
+}

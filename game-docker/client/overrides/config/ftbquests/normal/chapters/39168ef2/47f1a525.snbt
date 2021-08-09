@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	dependencies: [
+		"563a9366"
+	],
+	tasks: [{
+		uid: "8b31df91",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1e483902",
+		type: "item",
+		item: "draconicevolution:draconium_ore",
+		count: 64
+	}]
+}
