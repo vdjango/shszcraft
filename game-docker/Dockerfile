@@ -23,20 +23,11 @@ RUN yum -y update && \
     yum install -y \
 	vim \
 	git \
-	gcc \
-	python36 \
-	python36-dev \
-	python36-devel \
-	python36-setuptools \
-	python36-pip \
+	gcc 
 
 RUN yum -y install java-1.8.0-openjdk*
 
-COPY conf/get-pip.py /usr/local/src/
-RUN python3.6 /usr/local/src/get-pip.py
-
 # install uwsgi now because it takes a little while
-RUN pip3.6 install wheel
 
 # setup all the configfiles
 # RUN mkdir /home/hanfu/form /home/hanfu/rest/ /home/hanfu/log/ /home/hanfu/log/nginx /etc/nginx/conf.d/api/ /etc/nginx/conf.d/uedits/ -p
@@ -45,5 +36,5 @@ RUN pip3.6 install wheel
 # COPY form /home/hanfu/form/
 
 
-EXPOSE 25565 443 80
+EXPOSE 25565 
 CMD ["bash"]
