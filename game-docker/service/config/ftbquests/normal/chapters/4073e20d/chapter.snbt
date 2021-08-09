@@ -1,7 +1,0 @@
-{
-	title: "青铜时代",
-	icon: "immersiveengineering:stone_decoration 1 10",
-	always_invisible: false,
-	group: -1232287792,
-	default_quest_shape: ""
-}

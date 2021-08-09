@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jline-2.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/jline/jline/2.13/jline-2.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

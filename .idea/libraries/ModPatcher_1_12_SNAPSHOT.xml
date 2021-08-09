@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ModPatcher-1.12-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/minimallycorrect/modpatcher/ModPatcher-1.12-SNAPSHOT-ca147c01b3ebba6e/ModPatcher-1.12-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

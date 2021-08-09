@@ -1,7 +1,0 @@
-{
-	title: "市场",
-	icon: "minecraft:emerald",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

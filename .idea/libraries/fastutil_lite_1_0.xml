@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fastutil-lite-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/co/aikar/fastutil-lite/1.0/fastutil-lite-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

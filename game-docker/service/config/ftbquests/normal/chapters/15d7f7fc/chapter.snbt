@@ -1,7 +1,0 @@
-{
-	title: "星际时代",
-	icon: "moreplanets:tier_6_rocket 1 4",
-	always_invisible: false,
-	group: 1878408764,
-	default_quest_shape: ""
-}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PassableLeavesCore-1.12.2-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/mods/memory_repo/org/teamrtg/PassableLeavesCore-1.12.2/1.0.0/PassableLeavesCore-1.12.2-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
