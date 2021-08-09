@@ -1,7 +1,0 @@
-{
-	title: "石器时代",
-	icon: "pyrotech:crude_axe",
-	always_invisible: false,
-	group: -1232287792,
-	default_quest_shape: ""
-}
