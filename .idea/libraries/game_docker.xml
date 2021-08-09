@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="game-docker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/可选插件.zip!/" />
+      <root url="jar://$PROJECT_DIR$/game-docker/mohist-1.16.5-753-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/game-docker/其他-mods.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

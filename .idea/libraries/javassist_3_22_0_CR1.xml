@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javassist-3.22.0-CR1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/javassist/javassist-3.22.0-CR1-1a955bad6b275515/javassist-3.22.0-CR1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

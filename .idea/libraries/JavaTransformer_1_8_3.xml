@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaTransformer-1.8.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/game-docker/service/libraries/org/minimallycorrect/javatransformer/JavaTransformer-1.8.3/JavaTransformer-1.8.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
