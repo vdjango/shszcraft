@@ -4,17 +4,16 @@ CONTAINER = shszcraft
 IMAGE = ${CONTAINER}:${VERSION}
 USERIMAGE = 1748011755/${IMAGE}
 
-MEDIA = ~/nginx/media/
-DOCKERMEDIA = /home/hanfu/rest/media/
+MEDIA = ~/media/
+DOCKERMEDIA = /home/media/
 
 
 install:
 	yum install -y vim git gcc make
 
 run: remove
-	if [ ! -d "${MEDIA}" ];then  mkdir ${MEDIA};  fi
-	docker run -d -p=25565:25565 -p=443=443 -p=80:80 --restart=always -v ${MEDIA}:${DOCKERMEDIA} --name=${CONTAINER} ${IMAGE}
-	# docker run -d -p=443:443 --restart=always --memory=2GB -v ${MEDIA}:${DOCKERMEDIA} --name=${CONTAINER} ${IMAGE}
+	docker run -d -p=25565:25565 --restart=always -v ${MEDIA}:${DOCKERMEDIA} --name=${CONTAINER} ${USERIMAGE}
+	#docker run -d -p=25565:25565 --name=${CONTAINER} ${USERIMAGE}
 
 shell:
 	docker exec -it ${CONTAINER} bash
@@ -23,7 +22,7 @@ logs:
 	docker logs -f ${CONTAINER}
 
 remove:
-	docker stop ${CONTAINER}
+	docker stop ${CONTAINER}; true
 	docker rm ${CONTAINER}; true
 
 clean: 

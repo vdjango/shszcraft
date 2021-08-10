@@ -23,18 +23,26 @@ RUN yum -y update && \
     yum install -y \
 	vim \
 	git \
-	gcc 
+	gcc \
+	kde-l10n-Chinese \
+	glibc-common
 
-RUN yum -y install java-1.8.0-openjdk*
+RUN localedef -c -f UTF-8 -i zh_CN zh_CN.utf8
+RUN echo "export LANG=zh_CN.UTF-8" >> /etc/locale.conf && echo "export LC_ALL=zh_CN.utf8" >> /etc/profile
+ENV LANG zh_CN.UTF-8
+ENV LC_ALL zh_CN.UTF-8
+
+RUN yum -y install java-11-openjdk*
 
 # install uwsgi now because it takes a little while
 
 # setup all the configfiles
 # RUN mkdir /home/hanfu/form /home/hanfu/rest/ /home/hanfu/log/ /home/hanfu/log/nginx /etc/nginx/conf.d/api/ /etc/nginx/conf.d/uedits/ -p
 
-# COPY rest /home/hanfu/rest/
+COPY service/ /home/service/
 # COPY form /home/hanfu/form/
 
+RUN mkdir -p /var/log/ && touch /var/log/run
 
 EXPOSE 25565 
-CMD ["bash"]
+CMD ["tailf", "/var/log/run"]
