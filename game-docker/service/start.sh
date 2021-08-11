@@ -1,9 +1,14 @@
 #!/bin/bash
+path="null"  #文件路径
 server="mohist-1.16.5-753-server.jar"         #服务端文件，带扩展名
 authapi="authlib-injector-1.1.38.jar"                  #外置登入API文件
 authurl="null"    #外置登入验证服务器URL
 maxmem=0      #服务器最大启动内存
 minmem=0      #服务器最小启动内存
+if [ $path = "null" ]; then
+  echo "文件路径未设置"
+  exit
+fi
 if [ $maxmem = 0 ] || [  $minmem = 0 ]; then
   maxmem=4096
   minmem=2048
@@ -13,7 +18,9 @@ if [ $server = "null" ]; then
   echo "服务端文件不能为null"
   elif [ $authapi = "null" ] || [  $authurl = "null" ]; then
     echo "外置登入未配置，将不启用外置登入，如无外置登入请去服务端配置文件关闭正版验证以防盗版玩家无法进入，以及添加登入插件"
+    cd $path
     java -XX:+UseG1GC -XX:+AggressiveOpts -XX:+UseCompressedOops -Xms${minmem}M -Xmx${maxmem}M -jar $server
     else
+      cd $path
       java -javaagent:$authapi=$authurl -XX:+UseG1GC -XX:+AggressiveOpts -XX:+UseCompressedOops -Xms${minmem}M -Xmx${maxmem}M -jar $server
 fi
