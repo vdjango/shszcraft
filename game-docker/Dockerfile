@@ -32,7 +32,7 @@ RUN echo "export LANG=zh_CN.UTF-8" >> /etc/locale.conf && echo "export LC_ALL=zh
 ENV LANG zh_CN.UTF-8
 ENV LC_ALL zh_CN.UTF-8
 
-RUN yum -y install java-11-openjdk*
+RUN yum -y install java-16-openjdk*
 
 # install uwsgi now because it takes a little while
 
@@ -45,4 +45,4 @@ COPY service/ /home/service/
 RUN mkdir -p /var/log/ && touch /var/log/run
 
 EXPOSE 25565 
-CMD ["tailf", "/var/log/run"]
+CMD ["sh", "/home/service/start.sh"]
