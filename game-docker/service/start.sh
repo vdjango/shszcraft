@@ -18,9 +18,7 @@ if [ $server = "null" ]; then
   echo "服务端文件不能为null"
   elif [ $authapi = "null" ] || [  $authurl = "null" ]; then
     echo "外置登入未配置，将不启用外置登入，如无外置登入请去服务端配置文件关闭正版验证以防盗版玩家无法进入，以及添加登入插件"
-    cd $path
-    java -XX:+UseG1GC -XX:+AggressiveOpts -XX:+UseCompressedOops -Xms${minmem}M -Xmx${maxmem}M -jar $server
+    java -Xms${minmem}M -Xmx${maxmem}M -jar $server
     else
-      cd $path
-      java -javaagent:$authapi=$authurl -XX:+UseG1GC -XX:+AggressiveOpts -XX:+UseCompressedOops -Xms${minmem}M -Xmx${maxmem}M -jar $server
+      java -Xms${minmem}M -Xmx${maxmem}M -jar $server
 fi
