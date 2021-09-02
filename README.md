@@ -6,6 +6,7 @@
         理由: mod 装载过多，客户端向服务端发送数据包过大导致无法进去游戏，任意删除一个mod便可以恢复(真离谱)
 
     更新部分组件
+        libraries mohist ==> loliserver
         authlib-injector 1.1.38 ==> 1.1.39
         start.sh
         [匠魂]TConstruct 3.1.2.252==>3.1.2.265
