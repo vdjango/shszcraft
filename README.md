@@ -2,11 +2,9 @@
 
 服务端调整
 
-    更换核心 mohist ==> loliserver
-        理由: mod 装载过多，客户端向服务端发送数据包过大导致无法进去游戏，任意删除一个mod便可以恢复(真离谱)
+    删除核心
 
     更新部分组件
-        libraries mohist ==> loliserver
         authlib-injector 1.1.38 ==> 1.1.39
         start.sh
         [匠魂]TConstruct 3.1.2.252==>3.1.2.265
@@ -35,8 +33,6 @@
         [矿石挖掘]OreExcavation （作为"[矿工的优势]MinersAdvantage"的替代品）
         [更好的末地]BetterEnd (来源: Ling_xiangLX)
         [Mowzie的生物]mowziesmobs (来源: Ling_xiangLX)
-        [你将去的生物群系]byg (来源: Ling_xiangLX)
-        [API]chocolate ("[你将去的生物群系]byg"前置)
         [蔚蓝浩空]blue_skies (来源: Ling_xiangLX)
         [API]structure_gel ("[蔚蓝浩空]blue_skies"前置)
         [生物群系ID修复]biomeidfixer(预防未知的生物群系错乱)
@@ -63,7 +59,7 @@
 
     最终mod列表见mod-info.md
     
-    插件部分: 未修改
+    插件部分: 见plugininfo.md
 
 
 客户端

@@ -1,0 +1,35 @@
+#全局生物默认击杀掉钱（优先级最低）
+#不属于怪物也不属于动物，也没自定义的，属于此类
+Money: 0.02
+
+#（优先级中等）
+#全局怪物默认击杀掉钱
+MonsterMoney: 0.05
+#全局动物默认击杀掉钱
+AnimalMoney: 0
+
+#自定义生物掉钱数（优先级最高）
+#将会替代上面的全局，可输入/md mode右键对应生物查看类型名称（区分大小写）
+#输入0则不掉钱
+CustomMoney:
+  VILLAGER: 0
+
+#随机浮动提高游戏币倍率（原游戏币x1——此数值）
+#基础数值调低，此数值调高则可以做到随机游戏币
+RandomMagnification: 50
+
+#刷怪笼生成的生物是否不会掉钱
+#部分模组的刷怪笼无法禁止
+NoSpawnerMoney: true
+
+#掉钱是否为直接游戏币到账（关闭则为需要拾取）
+NoItemMoney: true
+#物品状态的标签和子ID
+ItemType: 'GOLD_NUGGET:0'
+
+#获得游戏币后是否提示
+MoneyMessage: true
+
+#禁止掉钱的世界
+BlackWorld:
+  - 'plotworld'

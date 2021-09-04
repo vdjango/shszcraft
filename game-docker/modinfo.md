@@ -140,12 +140,6 @@ https://www.mcmod.cn/item/71829.html
 [暮色森林] twilightforest-1.16.5-4.0.546-universal
 https://www.mcmod.cn/class/61.html
 
-[你将去的生物群系]byg-1.3.4
-https://www.mcmod.cn/class/1618.html
-
-[你将去的生物群系-前置]chocolate-1.3.0-1.16.4
-https://www.mcmod.cn/class/3364.html
-
 [农夫乐事]FarmersDelight-1.16.5-0.4.6
 https://www.mcmod.cn/class/2820.html
 
