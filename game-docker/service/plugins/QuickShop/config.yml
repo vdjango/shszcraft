@@ -1,0 +1,285 @@
+# =================================
+# =    QuickShop  Configuration   =
+# =================================
+# 
+# Notes:
+# Please read the example-configuration.yml file to get a commented example config.
+# Please read the example-configuration.yml file to get a commented example config.
+# Please read the example-configuration.yml file to get a commented example config.
+
+config-version: 139
+language: zh-CN
+game-language: default
+dev-mode: false
+tax: 0
+tax-account: tax
+unlimited-shop-owner-change: false
+unlimited-shop-owner-change-account: quickshop
+show-tax: false
+respect-item-flag: true
+currency: ''
+logging:
+  enable: true
+  log-actions: true
+  log-balance: true
+  file-size: 10.0
+trying-fix-banlance-insuffient: false
+whole-number-prices-only: false
+force-bukkit-chat-handler: false
+disabled-metrics: false
+updater: true
+auto-report-errors: true
+include-offlineplayer-list: false
+economy-type: 0
+use-decimal-format: false
+decimal-format: '#,###.##'
+send-display-item-protection-alert: false
+send-shop-protection-alert: false
+server-platform: 0
+use-caching: true
+chat-type: 0
+database:
+  mysql: false
+  host: localhost
+  port: 3306
+  database: quickshop
+  user: root
+  password: passwd
+  prefix: none
+  usessl: false
+  queue: true
+  queue-commit-interval: 2
+  auto-fix-encoding-issue-in-database: false
+limits:
+  use: false
+  default: 10
+  old-algorithm: false
+  ranks:
+    quickshop:
+      example: 20
+shop-blocks:
+- CHEST
+- TRAPPED_CHEST
+- ENDER_CHEST
+shop:
+  cost: 10
+  refund: false
+  sending-stock-message-to-staffs: false
+  disable-creative-mode-trading: false
+  disable-super-tool: false
+  allow-owner-break-shop-sign: false
+  price-change-requires-fee: true
+  fee-for-price-change: 50
+  lock: true
+  disable-quick-create: false
+  interact:
+    interact-mode: 0
+    sneak-to-create: false
+    sneak-to-trade: false
+    sneak-to-control: false
+    swap-click-behavior: false
+  auto-sign: true
+  sign-glowing: false
+  pay-unlimited-shop-owners: false
+  display-items: true
+  display-items-check-ticks: 6000
+  display-type: 0
+  display-auto-despawn: false
+  display-despawn-range: 20
+  display-check-time: 40
+  display-allow-stacks: false
+  enchance-display-protect: false
+  enchance-shop-protect: false
+  finding:
+    oldLogic: false
+    distance: 45
+    limit: 10
+    all: true
+    exclude-out-of-stock: false
+  alternate-currency-symbol: $
+  alternate-currency-symbol-list:
+  - CNY;¥
+  - USD;$
+  disable-vault-format: false
+  currency-symbol-on-right: false
+  ignore-unlimited-shop-messages: false
+  auto-fetch-shop-messages: true
+  ignore-cancel-chat-event: false
+  allow-shop-without-space-for-sign: false
+  minimum-price: 0.01
+  maximum-price: -1
+  price-restriction: []
+  maximum-digits-in-price: -1
+  show-owner-uuid-in-controlpanel-if-op: false
+  sign-material: OAK_WALL_SIGN
+  use-enchantment-for-enchanted-book: false
+  blacklist-world:
+  - disabled_world_name
+  blacklist-lores:
+  - SoulBound
+  protection-checking: true
+  protection-checking-blacklist:
+  - disabled_world
+  protection-checking-handler: 0
+  protection-checking-listener-blacklist:
+  - ignored_listener
+  max-shops-checks-in-once: 100
+  display-item-use-name: false
+  update-sign-when-inventory-moving: false
+  allow-economy-loan: false
+  word-for-trade-all-items: all
+  allow-free-shop: false
+  use-fast-shop-search-algorithm: true
+  ongoing-fee:
+    enable: false
+    ticks: 42000
+    cost-per-shop: 2
+    ignore-unlimited: true
+  force-load-downgrade-items:
+    enable: false
+    method: 0
+  remove-protection-trigger: true
+  allow-stacks: false
+  force-use-item-original-name: false
+blacklist:
+- Bedrock
+lockette:
+  enable: true
+  private: '[Private]'
+  more_users: '[More Users]'
+plugin:
+  Multiverse-Core: true
+  OpenInv: true
+  PlaceHolderAPI: true
+  LWC: true
+  BKCommonLib: true
+  BlockHub:
+    enable: true
+    only: false
+  WorldEdit: true
+effect:
+  sound:
+    ontabcomplete: true
+    oncommand: true
+    onclick: true
+matcher:
+  work-type: 0
+  item:
+    damage: true
+    repaircost: false
+    displayname: true
+    lores: true
+    enchs: true
+    potions: true
+    attributes: true
+    itemflags: true
+    custommodeldata: true
+    books: true
+    banner: true
+    skull: true
+    firework: true
+    map: true
+    leatherArmor: true
+    fishBucket: true
+    suspiciousStew: true
+    shulkerBox: true
+mixedeconomy:
+  deposit: eco give {0} {1}
+  withdraw: eco take {0} {1}
+integration:
+  towny:
+    enable: false
+    ignore-disabled-worlds: true
+    create:
+    - SHOPTYPE
+    - MODIFY
+    trade: []
+    delete-shop-on-resident-leave: false
+    delete-shop-on-plot-clear: true
+    whitelist-mode: true
+  worldguard:
+    enable: false
+    whitelist-mode: false
+    any-owner: true
+    create:
+    - FLAG
+    - CHEST_ACCESS
+    trade: []
+  plotsquared:
+    enable: false
+    whitelist-mode: true
+    delete-when-user-untrusted: true
+  lands:
+    enable: false
+    whitelist-mode: false
+    ignore-disabled-worlds: true
+    delete-on-lose-permission: false
+  fabledskyblock:
+    enable: false
+    whitelist-mode: false
+  griefprevention:
+    enable: false
+    whitelist-mode: true
+    create: INVENTORY
+    trade: []
+    delete-on-claim-trust-changed: true
+    delete-on-claim-unclaimed: true
+    delete-on-claim-expired: true
+    delete-on-claim-resized: true
+    delete-on-subclaim-created: true
+  residence:
+    enable: false
+    whitelist-mode: true
+    create:
+    - FLAG
+    - interact
+    - use
+    trade: []
+  factions:
+    enable: false
+    whitelist-mode: true
+    create:
+      require:
+        open: false
+        normal: true
+        wilderness: false
+        peaceful: true
+        permanent: false
+        safezone: false
+        own: false
+        warzone: false
+      flags:
+      - CONTAINER
+      - ECONOMY
+    trade:
+      require:
+        open: false
+        normal: true
+        wilderness: false
+        peaceful: false
+        permanent: false
+        safezone: false
+        own: false
+        warzone: false
+      flags: []
+  superiorskyblock:
+    enable: false
+    owner-create-only: false
+    delete-shop-on-member-leave: true
+  advancedregionmarket:
+    enable: false
+protect:
+  explode: true
+  hopper: true
+  entity: true
+custom-item-stacksize: []
+debug:
+  disable-debuglogger: false
+  shop-deletion: false
+  delete-corrupt-shops: false
+custom-commands:
+- shop
+- chestshop
+- cshop
+config-damaged: false
+server-uuid: 6db873d0-08e0-4a01-9575-866a166c1071
